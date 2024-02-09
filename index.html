@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <!-- To make page mobile-friendly -->
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>My Webpage</title>
+        <script>
+
+         // display loading image
+            document.onreadystatechange = function () {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    ".main").style.visibility = "hidden";
+                document.querySelector(
+                    "#pink").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                    "#pink").style.display = "none";
+                document.querySelector(
+                    ".main").style.visibility = "visible";
+            }
+        };
+        // display image every 1 second (1000 milliseconds)
+
+        function displayImage(){
+            document.querySelector("#pink").style.display = "block";
+        }
+
+        setInterval(displayImage, 1000);
+
+        </script>
+
+    </head>
+    <body>
+        <div class="hiddenTop">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="myinterests.html"> Interests </a>
+            <a class="navbar-brand" href="myhobbies.html"> Hobbies </a>
+            <a class="navbar-brand" href= "languages.html">Languages </a>
+        </nav>
+        </div>
+
+        <div class = main>
+        <div>
+        <h1 id = "name">
+            Hi there! I am Ananya K Ajay
+        </h1>
+        <h2 class = "heading">
+            About Me:
+        </h2>
+
+
+        </div>
+        <div>
+            <!--https://giphy.com/explore/pink-background-->
+            <img id = "pink" class = "img-thumbnail" src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdmg4ajVmZTRicncxZ3ZnbWhrazJ0ZTkzano0MW5scWQybmFtemM4ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ixbaC7uedQqXjy4Eng/giphy.gif" alt = "pink landscape">
+            <p class = "container">
+                I am currently doing my BS/MS Dual Degree in Biological Sciences at Indian Institute of Technology Madras, Chennai, India.
+                I am passionate about Biophysics and Genetics. I love reading detective fiction and crime fiction in general in my spare time.
+                Agatha Christie is a particular favourite.
+            </p>
+            <p class="lead">
+                Click on the following links to go other pages in my website. Enjoy!
+            </p>
+        </div>
+        <div>
+            <a class="nav-link"  href = "myinterests.html"> <u>My interests </u> </a>
+            <a class="nav-link"  href = "myhobbies.html"> <u>My hobbies </u> </a>
+            <a class="nav-link"  href = "languages.html"> <u>My interests </u> </a>
+        </div>
+
+    </div>
+    </body>
+</html>

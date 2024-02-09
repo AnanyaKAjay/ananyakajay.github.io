@@ -1,0 +1,30 @@
+HTML tags used:
+1) meta
+2) div
+3) img
+4) h1
+5) h2
+6) p
+7) script
+8) link
+9) a
+10) footer
+CSS properties used:
+1) background-color
+2) text-align
+3) margin-left
+4) margin-right
+5) padding-left
+6) padding-right
+7) color
+8) height
+9) width
+10)float
+11)margin-bottom
+12)padding
+13)display
+How I used JavaScript:
+I used JavaScript to display a loading image and also to display an image when another one is clicked.
+How I used Bootstrap:
+I used Bootstrap's navigation header Navbar to make the website more interactive. I also used some classes such as img-thumbnail
+to make my images look prettier.

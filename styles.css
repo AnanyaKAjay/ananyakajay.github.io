@@ -1,0 +1,46 @@
+body{
+    background-color : pink;
+}
+
+.heading{
+    text-align : center;
+    color: white;
+
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.nav-link{
+   color : blue;
+
+}
+#pink{
+    height:250px;
+    width:250px;
+    float:left;
+}
+#name {
+    background-color: pink ;
+    color: white;
+    margin-bottom: 1rem;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.default{
+    display:block;
+}
+#biophysics{
+    height:250px;
+    width:500px;
+    float:left;
+}
+
+#genetics{
+    height:250px;
+    width:500px;
+    float:right;
+}
